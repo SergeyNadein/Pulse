@@ -1,74 +1,56 @@
 @media (max-width: 1200px) {
-    .promo{
+    .promo {
         .header {
             display: flex;
             justify-content: space-around;
+            &__phone {
+                font-size: 17px;
+            }
+        }
+        &__wrepper {
+            margin-right: 30px;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    
+    .consultation {
+        .title_left {
+            font-size: 30px;
+            margin-left: 30px;
+        }
+        &__descr {
+            margin-left: 30px;
+        }
+        form {
+            margin-left: 30px;
+        }
+    }
+    
+    .catalog {
+        &__content {
+            margin: 40px;
+        }
+    }
+
+    .reviews {
+        &__item {
+            margin: 70px 30px;
         }
     }
 }
 @media (max-width: 991px) {
-    .promo {
-        &__wrepper {
-            display: flex;
-            align-items:center;
-        }
-    }
-    .consultation {
-        .title {
-            &_left {
-                text-align: center;
-            }
-        }
-        &__descr {
-            text-align: center;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items:center;
-        }
-    }
+   
 }
+
 @media (max-width: 767px) {
-    .promo {
-        .header {
-            display: flex;
-            justify-content: space-evenly;
-            &__official {
-                font-size: 10px;
-                span {
-                    font-size: 10px;
-                }
-            }
-            &__phone {
-                font-size: 10px;
-            }
-            .button {
-                width: 90px;
-                height: 20px;
-                font-size: 8px;
-            }
-            &__logo {
-                width: 30%;
-            }
-        }
-        &__wrepper {
-            text-align: center;
-        }
-        &__icons {
-            display: flex;
-            justify-content: space-around;
-        }
-    }
-    .benefits {
-        &__wrapper {
-            display: flex;
-            flex-direction: column;
-            align-items:center;
-        }
-    }
+  
 }
 
 @media (max-width: 575px) {
-
+   
 }
